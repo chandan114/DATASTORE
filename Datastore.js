@@ -79,9 +79,11 @@ create = (key , value  , Time_to_Live = -1) =>{
                        
 
 }
+/**
+ * @param {string} key
+ */
 
-
-Read  = (key) => {
+Read  = ( key ) => {
 
     
 
@@ -95,7 +97,7 @@ Read  = (key) => {
 }
 
 
-Delete  = (key) => {
+Delete  = (key) =>  {
 
 
 
