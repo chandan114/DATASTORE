@@ -16,7 +16,7 @@
   > const db  = require(Datastore) ;</br>
   > const client = new db("path")
 
-2. Create operation - it accepts 3 parameters(key , value , time_to_alive(optional) )
+2. Create operation - it accepts 3 parameters(key , value , time_to_alive(optional) ) where key is capped at 32chars and value is json onject capped at 16kb.
   > key passed should be string<br/>
   > client.create(key , value)
  
